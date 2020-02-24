@@ -1,0 +1,12 @@
+lst=[12,13,24]
+lst1=lst.u6
+#lst1=lst
+print(id(lst))
+print(id(lst1))
+print(lst)
+print(lst1)
+lst.append(33)
+print(id(lst))
+print(id(lst1))
+print(lst)
+print(lst1)
