@@ -1,0 +1,8 @@
+sqlite3 mydb1.db
+ .database
+.tables
+create table mytable(id int,name text,sal int);
+insert into mytable values(10,'aaaa',2345);
+insert into mytable values(20,'sssss',3456);
+insert into mytable values(34,'ffff',4567);
+select * from mytable;
