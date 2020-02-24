@@ -1,0 +1,16 @@
+﻿Data Processing : every operation works on NaN only so we need to convert all othe values like na & Not Avaliable to NaN.
+Functions Used to Converted unwanted  values into NaN values.
+Find out all the column with mean value. Slice it .and store it in a varaible say x
+Apply imputer on that x, by replacing it by mean or medium mentioning it in “startery=”
+.Values used when you want to convert it into ndarray
+If the array contains only one feaature he fita and transform will giv you error. So to convert them into 2D array.use x.reshape(-1,1) if it has one feature and when it has single value then x.reshape(-1,1)
+
+Changing Categorical Data:
+LabelEncoder : will convert categorical data into numercial data.
+OneHotenCoder:
+
+fromsklearn.prepocessing import LabelEncoder,OneHotEncoder
+
+label_coder_x=LabelEncoder()
+
+
